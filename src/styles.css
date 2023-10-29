@@ -1,0 +1,51 @@
+.App {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.loading {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loading > h1 {
+  font-size: 3rem;
+  color: #E09200;
+  margin: 0
+}
+
+.loading > p {
+  font-size: 1.1rem;
+  color: #291B00;
+}
+
+.title {
+  color: #E09200;
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+.articleList {
+  margin: 0 10rem 0.8rem 10rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px #151515;
+  border-radius: 0.2rem;
+}
+
+.articleList > h3 {
+  color:#291B00;
+}
+
+.info {
+  text-align: left;
+}
+
+.author > a {
+  padding-left: 0.3rem;
+  text-decoration: none;
+  color:#1346A4;
+  cursor: pointer;
+}
